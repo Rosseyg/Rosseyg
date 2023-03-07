@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Rosseyg
 - 👀 My expertise is in plc programming.  I am the inventor of the code that runs the nation's first all-in-one polymer delivery system!
-- 🌱 Currently working on front-end web development which is much different from the world of plcs.
+- 🌱 Currently working on lots of things, bro
 - 💞️ I’m looking for talented plc programmers that may want to collaborate.
 - 📫 How to reach me -> Ross@Giovanniello.com
 
