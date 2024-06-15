@@ -1,0 +1,12 @@
+11ty notes
+
+create / update .eleventy.js 
+
+add the start and build scripts to package.json
+    "start": "eleventy --serve",
+    "build": "eleventy"
+
+
+```
+// there are no comments in json!
+```

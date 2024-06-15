@@ -1,0 +1,26 @@
+{
+  "name": "rosseyg",
+  "version": "1.0.0",
+  "description": "website for Rosseyg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Rosseyg/Rosseyg"
+  },
+  "keywords": [
+    "Reverend",
+    "Awesome",
+    "Owner"
+  ],
+  "author": "Ross Giovanniello",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "bootstrap": "^5.3.3"
+  }
+}
