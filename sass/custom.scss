@@ -1,0 +1,40 @@
+// custom variables
+$primary: #2F323A;
+$secondary: #548687;
+$info: #9d6381;
+$success: #191308;
+$light: #eee0cb;
+
+// tooltips
+$tooltip-color: $primary;
+$tooltip-bg: $secondary;
+$tooltip-opacity: .95;
+$tooltip-arrow-height: .8rem;
+
+// tooltip defaults
+$tooltip-max-width:                 200px;
+$tooltip-arrow-width:               .8rem;
+
+
+// import functions because variables relies on it
+@import "../node_modules/bootstrap/scss/functions";
+// import variables because it contains theme-colors map
+@import "../node_modules/bootstrap/scss/variables";
+
+// new theme colors
+$added-theme-colors:(
+    "label": #777777,
+    "active": #333333,
+    "wilder": #0a924e
+);
+$theme-colors: map-merge($added-theme-colors, $theme-colors);
+
+// more tooltip defaults
+$tooltip-font-size:                 $font-size-sm;
+
+$tooltip-border-radius:             var(--#{$prefix}border-radius);
+$tooltip-padding-y:                 $spacer * .25;
+$tooltip-padding-x:                 $spacer * .5;
+
+// import bootstrap defaults will be overridden by above vars
+@import '../node_modules/bootstrap/scss/bootstrap.scss'

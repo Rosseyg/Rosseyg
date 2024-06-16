@@ -1,6 +1,6 @@
 ---
 title: Ross Giovanniello
-layout: layout.html
+layout: base.njk
 ---
 
 
@@ -8,8 +8,7 @@ layout: layout.html
 Homepage for rosseyg on the internet
 
 {% for page in collections.pages %}
-
-- [{{ page.data.title }}]({{ page.url }})
+- <a href="{{ page.url }}" class="btn btn-secondary btn-outline my-1">{{ page.data.title }}</a>
 {%- endfor %}
 
 Music - Code - Design
